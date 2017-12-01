@@ -10,6 +10,6 @@ console.log(textAfter);
 
 console.log(textAfter.length/2);
 
-var halfOfText = textAfter.slice(0, 72);
+var halfOfText = textAfter.slice(0, textAfter.length/2);
 
 console.log(halfOfText);
